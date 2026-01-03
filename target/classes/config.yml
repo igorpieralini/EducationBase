@@ -1,0 +1,11 @@
+application:
+  name: "EducationBase"
+  version: "1.0.0"
+  description: "Sistema de gerenciamento de cursos e faculdades"
+
+database:
+  host: "localhost"
+  port: 3306 
+  user: "root"
+  password: "your_password"
+  name: "educationbase_db"

@@ -1,0 +1,22 @@
+CREATE DATABASE IF NOT EXISTS educationbase_db;
+USE educationbase_db;
+
+CREATE TABLE IF NOT EXISTS cursos (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(200) NOT NULL,
+    descricao TEXT,
+    plataforma VARCHAR(100) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    INDEX idx_plataforma (plataforma)
+);
+
+CREATE TABLE IF NOT EXISTS faculdades (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome_curso VARCHAR(200) NOT NULL,
+    tipo_graduacao ENUM('BACHARELADO', 'TECNOLOGO', 'LICENCIATURA') NOT NULL,
+    duracao_semestres INT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    INDEX idx_tipo_graduacao (tipo_graduacao)
+);

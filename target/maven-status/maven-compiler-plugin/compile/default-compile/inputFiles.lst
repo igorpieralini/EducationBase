@@ -1,0 +1,11 @@
+C:\Users\igorp\Documents\GitHub\EducationBase\src\main\java\me\pieralini\educationbase\Application.java
+C:\Users\igorp\Documents\GitHub\EducationBase\src\main\java\me\pieralini\educationbase\config\ConfigManager.java
+C:\Users\igorp\Documents\GitHub\EducationBase\src\main\java\me\pieralini\educationbase\config\DatabaseManager.java
+C:\Users\igorp\Documents\GitHub\EducationBase\src\main\java\me\pieralini\educationbase\loader\DataLoader.java
+C:\Users\igorp\Documents\GitHub\EducationBase\src\main\java\me\pieralini\educationbase\model\Curso.java
+C:\Users\igorp\Documents\GitHub\EducationBase\src\main\java\me\pieralini\educationbase\model\Faculdade.java
+C:\Users\igorp\Documents\GitHub\EducationBase\src\main\java\me\pieralini\educationbase\repository\BaseRepository.java
+C:\Users\igorp\Documents\GitHub\EducationBase\src\main\java\me\pieralini\educationbase\repository\CursoRepository.java
+C:\Users\igorp\Documents\GitHub\EducationBase\src\main\java\me\pieralini\educationbase\repository\FaculdadeRepository.java
+C:\Users\igorp\Documents\GitHub\EducationBase\src\main\java\me\pieralini\educationbase\service\CursoService.java
+C:\Users\igorp\Documents\GitHub\EducationBase\src\main\java\me\pieralini\educationbase\service\FaculdadeService.java

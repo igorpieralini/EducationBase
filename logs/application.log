@@ -1,0 +1,234 @@
+2026-01-02 21:20:43.569 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - ============================================================
+2026-01-02 21:20:43.570 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - Iniciando EducationBase
+2026-01-02 21:20:43.570 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - ============================================================
+2026-01-02 21:20:43.614 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.config.ConfigManager - Configurações carregadas do classpath: config.yml
+2026-01-02 21:20:43.615 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - Aplicação: EducationBase v1.0.0
+2026-01-02 21:20:43.622 [me.pieralini.educationbase.Application.main()] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-02 21:20:43.764 [me.pieralini.educationbase.Application.main()] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27772032
+2026-01-02 21:20:43.766 [me.pieralini.educationbase.Application.main()] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-02 21:20:43.766 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.config.DatabaseManager - Conexão com banco de dados estabelecida: localhost:3306/educationbase_db
+2026-01-02 21:20:43.920 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.loader.DataLoader - Iniciando carregamento de dados JSON...
+2026-01-02 21:20:43.922 [me.pieralini.educationbase.Application.main()] WARN  m.p.educationbase.loader.DataLoader - Arquivo JSON não encontrado: data/plataformas.json
+2026-01-02 21:20:44.016 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.CursoRepository - Erro ao verificar existência: Table 'educationbase_db.cursos' doesn't exist
+2026-01-02 21:20:44.022 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.CursoRepository - Erro ao inserir curso: Table 'educationbase_db.cursos' doesn't exist
+2026-01-02 21:20:44.022 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.CursoRepository - Erro ao verificar existência: Table 'educationbase_db.cursos' doesn't exist
+2026-01-02 21:20:44.024 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.CursoRepository - Erro ao inserir curso: Table 'educationbase_db.cursos' doesn't exist
+2026-01-02 21:20:44.024 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.CursoRepository - Erro ao verificar existência: Table 'educationbase_db.cursos' doesn't exist
+2026-01-02 21:20:44.026 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.CursoRepository - Erro ao inserir curso: Table 'educationbase_db.cursos' doesn't exist
+2026-01-02 21:20:44.027 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.CursoRepository - Erro ao verificar existência: Table 'educationbase_db.cursos' doesn't exist
+2026-01-02 21:20:44.029 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.CursoRepository - Erro ao inserir curso: Table 'educationbase_db.cursos' doesn't exist
+2026-01-02 21:20:44.029 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.CursoRepository - Erro ao verificar existência: Table 'educationbase_db.cursos' doesn't exist
+2026-01-02 21:20:44.030 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.CursoRepository - Erro ao inserir curso: Table 'educationbase_db.cursos' doesn't exist
+2026-01-02 21:20:44.031 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.CursoRepository - Erro ao verificar existência: Table 'educationbase_db.cursos' doesn't exist
+2026-01-02 21:20:44.032 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.CursoRepository - Erro ao inserir curso: Table 'educationbase_db.cursos' doesn't exist
+2026-01-02 21:20:44.032 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.CursoRepository - Erro ao verificar existência: Table 'educationbase_db.cursos' doesn't exist
+2026-01-02 21:20:44.033 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.CursoRepository - Erro ao inserir curso: Table 'educationbase_db.cursos' doesn't exist
+2026-01-02 21:20:44.033 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.CursoRepository - Erro ao verificar existência: Table 'educationbase_db.cursos' doesn't exist
+2026-01-02 21:20:44.034 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.CursoRepository - Erro ao inserir curso: Table 'educationbase_db.cursos' doesn't exist
+2026-01-02 21:20:44.034 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.loader.DataLoader - Cursos carregados: 8 novos de 8 total
+2026-01-02 21:20:44.045 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.FaculdadeRepository - Erro ao verificar existência: Table 'educationbase_db.faculdades' doesn't exist
+2026-01-02 21:20:44.047 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.FaculdadeRepository - Erro ao inserir faculdade: Table 'educationbase_db.faculdades' doesn't exist
+2026-01-02 21:20:44.048 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.FaculdadeRepository - Erro ao verificar existência: Table 'educationbase_db.faculdades' doesn't exist
+2026-01-02 21:20:44.049 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.FaculdadeRepository - Erro ao inserir faculdade: Table 'educationbase_db.faculdades' doesn't exist
+2026-01-02 21:20:44.049 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.FaculdadeRepository - Erro ao verificar existência: Table 'educationbase_db.faculdades' doesn't exist
+2026-01-02 21:20:44.050 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.FaculdadeRepository - Erro ao inserir faculdade: Table 'educationbase_db.faculdades' doesn't exist
+2026-01-02 21:20:44.051 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.FaculdadeRepository - Erro ao verificar existência: Table 'educationbase_db.faculdades' doesn't exist
+2026-01-02 21:20:44.052 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.FaculdadeRepository - Erro ao inserir faculdade: Table 'educationbase_db.faculdades' doesn't exist
+2026-01-02 21:20:44.052 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.FaculdadeRepository - Erro ao verificar existência: Table 'educationbase_db.faculdades' doesn't exist
+2026-01-02 21:20:44.053 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.FaculdadeRepository - Erro ao inserir faculdade: Table 'educationbase_db.faculdades' doesn't exist
+2026-01-02 21:20:44.054 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.FaculdadeRepository - Erro ao verificar existência: Table 'educationbase_db.faculdades' doesn't exist
+2026-01-02 21:20:44.055 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.FaculdadeRepository - Erro ao inserir faculdade: Table 'educationbase_db.faculdades' doesn't exist
+2026-01-02 21:20:44.055 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.loader.DataLoader - Faculdades carregadas: 6 novas de 6 total
+2026-01-02 21:20:44.055 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.loader.DataLoader - Carregamento de dados concluído!
+2026-01-02 21:20:44.057 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - ========================================
+2026-01-02 21:20:44.058 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - Resumo dos dados:
+2026-01-02 21:20:44.061 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.r.PlataformaRepository - Erro ao contar: Table 'educationbase_db.plataformas' doesn't exist
+2026-01-02 21:20:44.061 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application -   Plataformas: 0
+2026-01-02 21:20:44.062 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.CursoRepository - Erro ao contar: Table 'educationbase_db.cursos' doesn't exist
+2026-01-02 21:20:44.062 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application -   Cursos: 0
+2026-01-02 21:20:44.063 [me.pieralini.educationbase.Application.main()] ERROR m.p.e.repository.FaculdadeRepository - Erro ao contar: Table 'educationbase_db.faculdades' doesn't exist
+2026-01-02 21:20:44.063 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application -   Faculdades: 0
+2026-01-02 21:20:44.063 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - ========================================
+2026-01-02 21:20:44.063 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - ============================================================
+2026-01-02 21:20:44.064 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - EducationBase iniciado com sucesso!
+2026-01-02 21:20:44.064 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - ============================================================
+2026-01-02 21:20:59.078 [Thread-2] INFO  m.p.educationbase.Application - Encerrando aplicação...
+2026-01-02 21:20:59.079 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-02 21:20:59.081 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-02 21:20:59.081 [Thread-2] INFO  m.p.e.config.DatabaseManager - Conexão com banco de dados encerrada
+2026-01-02 21:22:09.625 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - ============================================================
+2026-01-02 21:22:09.626 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - Iniciando EducationBase
+2026-01-02 21:22:09.626 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - ============================================================
+2026-01-02 21:22:09.676 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.config.ConfigManager - Configurações carregadas do classpath: config.yml
+2026-01-02 21:22:09.678 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - Aplicação: EducationBase v1.0.0
+2026-01-02 21:22:09.685 [me.pieralini.educationbase.Application.main()] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-02 21:22:09.835 [me.pieralini.educationbase.Application.main()] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e649bf1
+2026-01-02 21:22:09.836 [me.pieralini.educationbase.Application.main()] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-02 21:22:09.836 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.config.DatabaseManager - Conexão com banco de dados estabelecida: localhost:3306/educationbase_db
+2026-01-02 21:22:09.975 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.loader.DataLoader - Iniciando carregamento de dados JSON...
+2026-01-02 21:22:09.977 [me.pieralini.educationbase.Application.main()] WARN  m.p.educationbase.loader.DataLoader - Arquivo JSON não encontrado: data/plataformas.json
+2026-01-02 21:22:10.063 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 1
+2026-01-02 21:22:10.066 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 2
+2026-01-02 21:22:10.068 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 3
+2026-01-02 21:22:10.070 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 4
+2026-01-02 21:22:10.072 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 5
+2026-01-02 21:22:10.073 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 6
+2026-01-02 21:22:10.075 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 7
+2026-01-02 21:22:10.077 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 8
+2026-01-02 21:22:10.077 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.loader.DataLoader - Cursos carregados: 8 novos de 8 total
+2026-01-02 21:22:10.091 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 1
+2026-01-02 21:22:10.093 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 2
+2026-01-02 21:22:10.095 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 3
+2026-01-02 21:22:10.097 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 4
+2026-01-02 21:22:10.100 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 5
+2026-01-02 21:22:10.102 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 6
+2026-01-02 21:22:10.102 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.loader.DataLoader - Faculdades carregadas: 6 novas de 6 total
+2026-01-02 21:22:10.102 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.loader.DataLoader - Carregamento de dados concluído!
+2026-01-02 21:22:10.105 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - ========================================
+2026-01-02 21:22:10.105 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - Resumo dos dados:
+2026-01-02 21:22:10.108 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application -   Plataformas: 0
+2026-01-02 21:22:10.109 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application -   Cursos: 8
+2026-01-02 21:22:10.109 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application -   Faculdades: 6
+2026-01-02 21:22:10.109 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - ========================================
+2026-01-02 21:22:10.110 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - ============================================================
+2026-01-02 21:22:10.110 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - EducationBase iniciado com sucesso!
+2026-01-02 21:22:10.110 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - ============================================================
+2026-01-02 21:22:25.119 [Thread-2] INFO  m.p.educationbase.Application - Encerrando aplicação...
+2026-01-02 21:22:25.119 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-02 21:22:25.121 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-02 21:22:25.121 [Thread-2] INFO  m.p.e.config.DatabaseManager - Conexão com banco de dados encerrada
+2026-01-02 21:27:36.568 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - ============================================================
+2026-01-02 21:27:36.569 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - Iniciando EducationBase
+2026-01-02 21:27:36.569 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - ============================================================
+2026-01-02 21:27:36.629 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.config.ConfigManager - Configurações carregadas do classpath: config.yml
+2026-01-02 21:27:36.631 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - Aplicação: EducationBase v1.0.0
+2026-01-02 21:27:36.638 [me.pieralini.educationbase.Application.main()] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-02 21:27:36.799 [me.pieralini.educationbase.Application.main()] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a6b8d1
+2026-01-02 21:27:36.801 [me.pieralini.educationbase.Application.main()] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-02 21:27:36.801 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.config.DatabaseManager - Conexão com banco de dados estabelecida: localhost:3306/educationbase_db
+2026-01-02 21:27:36.935 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.loader.DataLoader - Iniciando carregamento de dados JSON...
+2026-01-02 21:27:56.235 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - ============================================================
+2026-01-02 21:27:56.236 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - Iniciando EducationBase
+2026-01-02 21:27:56.236 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - ============================================================
+2026-01-02 21:27:56.283 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.config.ConfigManager - Configurações carregadas do classpath: config.yml
+2026-01-02 21:27:56.284 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - Aplicação: EducationBase v1.0.0
+2026-01-02 21:27:56.291 [me.pieralini.educationbase.Application.main()] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-02 21:27:56.435 [me.pieralini.educationbase.Application.main()] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e649bf1
+2026-01-02 21:27:56.437 [me.pieralini.educationbase.Application.main()] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-02 21:27:56.437 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.config.DatabaseManager - Conexão com banco de dados estabelecida: localhost:3306/educationbase_db
+2026-01-02 21:27:56.577 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.loader.DataLoader - Iniciando carregamento de dados JSON...
+2026-01-02 21:27:56.664 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 9
+2026-01-02 21:27:56.667 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 10
+2026-01-02 21:27:56.669 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 11
+2026-01-02 21:27:56.672 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 12
+2026-01-02 21:27:56.674 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 13
+2026-01-02 21:27:56.677 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 14
+2026-01-02 21:27:56.680 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 15
+2026-01-02 21:27:56.682 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 16
+2026-01-02 21:27:56.684 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 17
+2026-01-02 21:27:56.686 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 18
+2026-01-02 21:27:56.689 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 19
+2026-01-02 21:27:56.691 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 20
+2026-01-02 21:27:56.693 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 21
+2026-01-02 21:27:56.695 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 22
+2026-01-02 21:27:56.697 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 23
+2026-01-02 21:27:56.699 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 24
+2026-01-02 21:27:56.701 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 25
+2026-01-02 21:27:56.703 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 26
+2026-01-02 21:27:56.704 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 27
+2026-01-02 21:27:56.707 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 28
+2026-01-02 21:27:56.709 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 29
+2026-01-02 21:27:56.711 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 30
+2026-01-02 21:27:56.712 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 31
+2026-01-02 21:27:56.714 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 32
+2026-01-02 21:27:56.716 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 33
+2026-01-02 21:27:56.718 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 34
+2026-01-02 21:27:56.720 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 35
+2026-01-02 21:27:56.722 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 36
+2026-01-02 21:27:56.723 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 37
+2026-01-02 21:27:56.725 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 38
+2026-01-02 21:27:56.726 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 39
+2026-01-02 21:27:56.728 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 40
+2026-01-02 21:27:56.730 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 41
+2026-01-02 21:27:56.732 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 42
+2026-01-02 21:27:56.734 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 43
+2026-01-02 21:27:56.735 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 44
+2026-01-02 21:27:56.737 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 45
+2026-01-02 21:27:56.739 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 46
+2026-01-02 21:27:56.741 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 47
+2026-01-02 21:27:56.743 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 48
+2026-01-02 21:27:56.744 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 49
+2026-01-02 21:27:56.746 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 50
+2026-01-02 21:27:56.748 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 51
+2026-01-02 21:27:56.750 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 52
+2026-01-02 21:27:56.751 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 53
+2026-01-02 21:27:56.753 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 54
+2026-01-02 21:27:56.755 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 55
+2026-01-02 21:27:56.756 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 56
+2026-01-02 21:27:56.758 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 57
+2026-01-02 21:27:56.759 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.CursoRepository - Curso inserido: 58
+2026-01-02 21:27:56.759 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.loader.DataLoader - Cursos carregados: 50 novos de 50 total
+2026-01-02 21:27:56.772 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 7
+2026-01-02 21:27:56.774 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 8
+2026-01-02 21:27:56.776 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 9
+2026-01-02 21:27:56.778 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 10
+2026-01-02 21:27:56.779 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 11
+2026-01-02 21:27:56.781 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 12
+2026-01-02 21:27:56.782 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 13
+2026-01-02 21:27:56.784 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 14
+2026-01-02 21:27:56.785 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 15
+2026-01-02 21:27:56.787 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 16
+2026-01-02 21:27:56.788 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 17
+2026-01-02 21:27:56.790 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 18
+2026-01-02 21:27:56.792 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 19
+2026-01-02 21:27:56.793 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 20
+2026-01-02 21:27:56.795 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 21
+2026-01-02 21:27:56.797 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 22
+2026-01-02 21:27:56.799 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 23
+2026-01-02 21:27:56.800 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 24
+2026-01-02 21:27:56.802 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 25
+2026-01-02 21:27:56.804 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 26
+2026-01-02 21:27:56.806 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 27
+2026-01-02 21:27:56.808 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 28
+2026-01-02 21:27:56.809 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 29
+2026-01-02 21:27:56.811 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 30
+2026-01-02 21:27:56.813 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 31
+2026-01-02 21:27:56.814 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 32
+2026-01-02 21:27:56.816 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 33
+2026-01-02 21:27:56.817 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 34
+2026-01-02 21:27:56.819 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 35
+2026-01-02 21:27:56.820 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 36
+2026-01-02 21:27:56.822 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 37
+2026-01-02 21:27:56.823 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 38
+2026-01-02 21:27:56.825 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 39
+2026-01-02 21:27:56.827 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 40
+2026-01-02 21:27:56.829 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 41
+2026-01-02 21:27:56.831 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 42
+2026-01-02 21:27:56.832 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 43
+2026-01-02 21:27:56.834 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 44
+2026-01-02 21:27:56.836 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 45
+2026-01-02 21:27:56.838 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 46
+2026-01-02 21:27:56.840 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 47
+2026-01-02 21:27:56.841 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 48
+2026-01-02 21:27:56.843 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 49
+2026-01-02 21:27:56.845 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 50
+2026-01-02 21:27:56.846 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 51
+2026-01-02 21:27:56.848 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 52
+2026-01-02 21:27:56.849 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 53
+2026-01-02 21:27:56.851 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 54
+2026-01-02 21:27:56.852 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 55
+2026-01-02 21:27:56.854 [me.pieralini.educationbase.Application.main()] INFO  m.p.e.repository.FaculdadeRepository - Faculdade inserida: 56
+2026-01-02 21:27:56.854 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.loader.DataLoader - Faculdades carregadas: 50 novas de 50 total
+2026-01-02 21:27:56.854 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.loader.DataLoader - Carregamento de dados concluído!
+2026-01-02 21:27:56.856 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - ========================================
+2026-01-02 21:27:56.856 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - Resumo dos dados:
+2026-01-02 21:27:56.858 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application -   Cursos: 58
+2026-01-02 21:27:56.858 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application -   Faculdades: 56
+2026-01-02 21:27:56.858 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - ========================================
+2026-01-02 21:27:56.859 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - ============================================================
+2026-01-02 21:27:56.859 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - EducationBase iniciado com sucesso!
+2026-01-02 21:27:56.859 [me.pieralini.educationbase.Application.main()] INFO  m.p.educationbase.Application - ============================================================
+2026-01-02 21:28:11.868 [Thread-2] INFO  m.p.educationbase.Application - Encerrando aplicação...
+2026-01-02 21:28:11.868 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-02 21:28:11.869 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-02 21:28:11.870 [Thread-2] INFO  m.p.e.config.DatabaseManager - Conexão com banco de dados encerrada
